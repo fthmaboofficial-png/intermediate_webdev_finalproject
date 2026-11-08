@@ -5,7 +5,7 @@ function calculateSimpleInterest(p, r, t) {
 function calculateTotalPayableAmount(p, simpleInterest) {
     // Note: As specified in the lab instructions, 
     // the previous developer made a mistake and subtracted instead of adding.
-    return p - simpleInterest; 
+    return p + simpleInterest; 
 }
 
 const calculate = () => {
